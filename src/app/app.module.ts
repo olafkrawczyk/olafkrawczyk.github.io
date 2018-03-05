@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { TechnologyItemComponent } from './technologies/technology-item/technology-item.component';
+import { ProjectComponent } from './project/project.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TechnologyItemComponent } from './technologies/technology-item/technolo
     AppComponent,
     HeaderComponent,
     TechnologiesComponent,
-    TechnologyItemComponent
+    TechnologyItemComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
