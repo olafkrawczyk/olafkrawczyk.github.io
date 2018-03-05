@@ -1,13 +1,9 @@
-<div class="row">
-  <div class="col-4 tech-item">{{technology}}</div>
-  <div class="col-8 tech-progress">
-
-    <div class="progress-wrapper">
-      <div class="skill">
-        PHP
-      </div>
-      <round-progress [current]="skillLevel" [max]="100"></round-progress>
+<div class="col-sm-12 col-md-6 col-lg-4" style="max-width: 100%; margin-top: 10px;">
+  <div class="progress-wrapper">
+    <div class="skill">
+      {{ technology }}
     </div>
-    <!-- <ngb-progressbar type="info" [value]="skillLevel" [striped]="true" [animated]="true" height="10px"></ngb-progressbar> -->
+    <round-progress [current]="skillLevel" [max]="100" [radius]="70" [stroke]="7" color="#36aad8"></round-progress>
   </div>
 </div>
+<!-- <ngb-progressbar type="info" [value]="skillLevel" [striped]="true" [animated]="true" height="10px"></ngb-progressbar> -->

@@ -14,3 +14,8 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
+
+.progres-wrapper {
+    margin-top: 15px;
+    width: 100%;
+}
